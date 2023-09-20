@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ .thumbs-wrapper{
+  visibility: hidden !important;
+}
+
+.bannerbackgroundimage > img{
+  width: 100% !important;
+  height: 640px !important;
+
+}
+
+.con{
+  /* background: linear-gradient(111.4deg, #f35230, #f38430) !important; */
+  height: 300px;
+}
+
+.banner{
+  position: relative;
+  top: -600px;
+}
+

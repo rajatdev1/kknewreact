@@ -1,0 +1,84 @@
+/* Container for the banner */
+.container.homeBanner {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Row styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Basic styling for the banners */
+.homeTop_banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+/* Basic styling for the context section of each banner */
+.context {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the image section of each banner */
+.contimage {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Search bar styling */
+.serchbar {
+    margin-top: 20px;
+    position: relative;
+}
+
+.serchbar i.fa {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.serchbar input.form-control {
+    padding-left: 40px;
+    width: 80%;
+    display: inline-block;
+}
+
+.serchbar button {
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    margin-left: -4px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .context, .contimage {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+}
