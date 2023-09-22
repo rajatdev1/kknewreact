@@ -12,6 +12,7 @@ import PromotionWidget from '../src/Components/Profesionalcourse'
 import BookSlider from '../src/Components/Popularstudent';
 import BlogComponent from '../src/Components/Blogs'
 // import FooterLinks from '../src/Components/Footertop'
+import StudentVideoTestimonial from '../src/Components/Youtubeslide'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,6 +42,7 @@ function App() {
 <MyCarousel/>
 <PromotionWidget/>
 <BookSlider/>
+<StudentVideoTestimonial/>
 <BlogComponent/>
 {/* <FooterLinks /> */}
     </div>

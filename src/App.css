@@ -502,3 +502,21 @@ a.kk_cards:hover {
  line-height: 22px;
  text-decoration: none;
 }
+
+
+
+.youtubevideos{
+    margin-left: 160px;
+    margin-top: 90px !important;
+}
+
+.videos{
+    
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.testimonial_line{
+    font-size: 32px;
+    font-weight: bold;
+}
